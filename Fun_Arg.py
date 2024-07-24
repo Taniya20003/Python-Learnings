@@ -24,3 +24,11 @@ name("Peter", "Quill")
 
 # 4. Variable length Arg
 
+def avg(*numbers):
+    sum=0
+    for i in numbers:
+        sum+=i
+    print(sum)    
+
+avg(4,2)   
+
